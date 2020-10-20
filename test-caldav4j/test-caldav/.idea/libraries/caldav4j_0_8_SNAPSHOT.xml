@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="caldav4j-0.8-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/caldav4j-0.8-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

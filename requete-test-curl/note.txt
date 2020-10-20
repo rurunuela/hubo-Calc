@@ -1,0 +1,39 @@
+voir http://www.seleniumhq.org
+
+Super server pour davical :
+_______________________
+https://wiki.jasig.org/display/BWK310/Running+Bedework
+
+Cosmo semble pas mal :
+http://chandlerproject.org/Projects/CosmoHome
+Super a voir et à étudier 
+Pour commencer ce serveur est plus simple :
+http://radicale.org
+
+
+
+A voir 
+http://sabre.io/dav/
+
+
+
+<d:propfind xmlns:d="DAV:" xmlns:cs="http://calendarserver.org/ns/"> <d:prop>     <d:displayname />     <cs:getctag />  </d:prop></d:propfind>
+
+Super exemple de requête 
+http://sabre.io/dav/building-a-caldav-client
+
+
+curl --request PROPFIND  --user richard:secret --header "Content-Type: text/xml" --header "Brief:t" --data "<D:propfind xmlns:D='DAV:'><D:prop><D:displayname/></D:prop></D:propfind>"  www.hubo-soft.com//davical/caldav.php/richard/
+
+
+
+
+
+<d:propfind xmlns:d="DAV:" xmlns:cs="http://calendarserver.org/ns/">  <d:prop>     <d:displayname />     <cs:getctag />  </d:prop></d:propfind>
+
+
+
+curl --request PROPFIND  --user richard:secret --header "Content-Type: text/xml" --header "Brief:t" --data "<d:propfind xmlns:d="DAV:" xmlns:cs="http://calendarserver.org/ns/">  <d:prop>     <d:displayname />     <cs:getctag />  </d:prop></d:propfind>"  www.hubo-soft.com//davical/caldav.php/richard/
+
+
+
